@@ -9,12 +9,14 @@
 			"name": "Debug (Launch) - Current File",
 			"request": "launch",
 			"mainClass": "${file}"
+			"console":"integratedTerminal"
 		},
 		{
 			"type": "java",
-			"name": "Debug (Launch)-Brad",
+			"name": "Debug (Launch)-Antonio",
 			"request": "launch",
-			"mainClass": "Brad"
+			"mainClass": "Antonio",
+			"console":"integratedTerminal"
 		}
 	]
 }
