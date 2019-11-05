@@ -1,10 +1,9 @@
 import Scanner;
 
 class Brad {
-	public static void main(String args[]) {
-		System.out.println(Prompt("egg"));
+	public static void main(String[] egg) {
+		// nothing
 	}
-
 
 	// prompt() from better langs (ie python)
 	public static string Prompt(String msg) {
