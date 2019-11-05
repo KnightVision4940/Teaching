@@ -1,8 +1,8 @@
 import Scanner;
 
 class Brad {
-	public static void main(String[] args) {
-		
+	public static void main(String args[]) {
+		System.out.println(Prompt("egg"));
 	}
 
 
@@ -11,6 +11,6 @@ class Brad {
 		Scanner scan = new Scanner(System.in);
 		System.out.println(msg);
 		String reply = scan.nextLine();
-		
+		return reply;
 	}
 }
