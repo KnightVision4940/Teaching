@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Example",
+            "request": "launch",
+            "mainClass": "Example"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Brad",
+            "request": "launch",
+            "mainClass": "Brad"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Evan",
+            "request": "launch",
+            "mainClass": "Evan",
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "console": "integratedTerminal"
+        }
+    ]
+}
