@@ -1,0 +1,15 @@
+Make a game where the user has a guess the number
+of a dice roll made by the Computer.
+
+Requirements & Rules:
+    The user is asked to guess a number of a dice roll
+    The dice roll is number is RANDOM - not just 2,5,6, etc. everytime
+    Not allowed to copy and paste from internet
+    Encouraged to use Java Cheat Sheet
+    Have at least one other method in addition to main method
+
+After Finished..
+    Add "money" to the game - make the user place a bet and
+    win/lose money depending on if the guess is right.
+
+Good luck!!!
