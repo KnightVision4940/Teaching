@@ -13,7 +13,13 @@ public class EvanFarquhar{
  static Scanner in = new Scanner(System.in);
  static Random randnum = new Random();
  public static void main(String[] args) {
-   int  dice = randnum.nextInt(6) +1;
+     System.out.println("guess your number (1-6)");
+    int wrong = in.nextInt();
+ if (wrong > 6) {
+    System.out.println("it has to be less than 6");
+   wrong = in.nextInt();
+ }
+   int  dice = randnum.nextInt(6) +1;  
 System.out.println(dice);
 
  }
