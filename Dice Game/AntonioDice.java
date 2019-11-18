@@ -8,17 +8,17 @@ This will generate a random number from 1 to 30
 import java.util.*;
 public class Antonio {
 	static int money;
-	static String username;
+	static String name;
 	static Scanner in = new Scanner(System.in);
-	static Random random = new Random();
+	static Random rand = new Random();
 	static int dice;
     
 	public static void main(String[] args) {
 		
-		System.out.println("Please enter your username");
-        username = in.nextLine();
+		System.out.println("Please enter your name");
+        name = in.nextLine();
         
-		System.out.println("Welcome " + username);
+		System.out.println("Welcome " + name);
 		
 		money = 1000;
 		
@@ -41,7 +41,7 @@ public class Antonio {
 					           "Please place another bet");
 			betMoney = in.nextInt();
 		}
-		dice = random.nextInt(6) + 1;
+		dice = rand.nextInt(6) + 1;
 		
 		if(betRoll == dice) {
 			System.out.println("You win! You have won: $" + betMoney*2);
