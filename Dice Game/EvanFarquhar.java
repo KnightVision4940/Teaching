@@ -9,11 +9,11 @@ This will generate a random number from 1 to 30
 import java.util.Random;
 import java.util.Scanner;
  
-public class Evan{
+public class EvanFarquhar{
  static Scanner in = new Scanner(System.in);
  static Random randnum = new Random();
  public static void main(String[] args) {
-    int dice = randnum.nextInt(6) +1;
+   int  dice = randnum.nextInt(6) +1;
 System.out.println(dice);
 
  }
