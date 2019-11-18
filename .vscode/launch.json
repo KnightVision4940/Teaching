@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Antonio",
+            "request": "launch",
+            "mainClass": "Antonio"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Example",
             "request": "launch",
             "mainClass": "Example"
@@ -16,7 +22,7 @@
             "type": "java",
             "name": "CodeLens (Launch) - Evan",
             "request": "launch",
-            "mainClass": "Evan",
+            "mainClass": "Evan"
         },
         {
             "type": "java",
