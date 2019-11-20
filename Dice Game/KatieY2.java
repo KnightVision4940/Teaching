@@ -9,18 +9,25 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class KatieY2{
+  static  Scanner in=new Scanner(System.in);
+   static Random rand = new Random();
     public static void main(String[] args) {
-        Scanner in=new Scanner(System.in);
-        Random rand = new Random();
-       
+   
         System.out.println("Give a number between 1-6");
-        int big = in.nextint();
-    if(big > 6){
+        int first = in.nextInt();
+    if(first > 6){
         System.out.println("A number less than 6 or 6");
-    }
+        first  = in.nextInt();
+        }
     int dice= rand.nextInt(6) +1;
-    System.out.println(dice);
+    // System.out.println(dice);
 
+    if(dice == first){
+        System.out.println("Congradulations, you win!");
+        }
+    else{
+        System.out.println("You lose."); 
+        }
     
     }
 

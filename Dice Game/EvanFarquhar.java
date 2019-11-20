@@ -19,6 +19,10 @@ public class EvanFarquhar{
     System.out.println("it has to be less than 6");
    wrong = in.nextInt();
  }
+else if (wrong <1){
+   
+}
+
    int  dice = randnum.nextInt(6) +1;  
 System.out.println(dice);
 
