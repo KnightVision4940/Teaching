@@ -11,8 +11,19 @@ import java.util.Scanner;
 public class KatieY2{
   static  Scanner in=new Scanner(System.in);
    static Random rand = new Random();
+   static int bank = 100;
     public static void main(String[] args) {
-   
+      
+    while(money < 200){
+        System.out.println("You have $"+bank);
+        System.out.println("How much would you like to bet?");
+        int money = in.nextInt();
+        bank -= money;
+        if(money > bank){
+            System.out.println("You bet too much. Please try again.");
+        }    
+        else{
+            
         System.out.println("Give a number between 1-6");
         int first = in.nextInt();
     if(first > 6){
@@ -24,11 +35,14 @@ public class KatieY2{
 
     if(dice == first){
         System.out.println("Congradulations, you win!");
+        bank += money *2;
         }
     else{
         System.out.println("You lose."); 
         }
-    
-    }
-
-}
+    if(money < 0){
+        System.oout.println("You can no longer play, you have no more money.");
+        break;
+    }      
+        }
+    }}}

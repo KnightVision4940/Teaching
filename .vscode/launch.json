@@ -2,6 +2,19 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - KatieY2",
+            "request": "launch",
+            "mainClass": "KatieY2",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Rocco",
+            "request": "launch",
+            "mainClass": "Rocco"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Antonio",
             "request": "launch",
             "mainClass": "Antonio"
