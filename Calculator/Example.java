@@ -1,14 +1,15 @@
 public class Example{
-    public static void main(String[] args) {
-        intt i = 3
-        double d = 34.4;
+    public  static void main(String[] args) {
+        int x= 3;
+        double d = 34;
 
-        System.ot.prinln(d);
-        if d == 23{
-            print "Hello World"
-        };
-
-        if(d = 34){
-            Strring s = "hello world;
+        System.out.println(d);
+        if (d == 23){
+            System.out.println ("Hello World");
         }
+
+        if(d ==34){
+            String s = "hello world";
+        }
+}
 }
