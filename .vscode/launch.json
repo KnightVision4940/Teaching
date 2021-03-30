@@ -2,28 +2,25 @@
     "configurations": [
         {
             "type": "java",
-<<<<<<< Updated upstream
+            "name": "CodeLens (Launch) - Dice",
+            "request": "launch",
+            "mainClass": "Dice"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - KatieY2",
             "request": "launch",
             "mainClass": "KatieY2",
-=======
-            "name": "CodeLens (Launch) - EvanFarquhar",
-            "request": "launch",
-            "mainClass": "EvanFarquhar",
->>>>>>> Stashed changes
             "console": "integratedTerminal"
         },
         {
             "type": "java",
-<<<<<<< Updated upstream
             "name": "CodeLens (Launch) - Rocco",
             "request": "launch",
             "mainClass": "Rocco"
         },
         {
             "type": "java",
-=======
->>>>>>> Stashed changes
             "name": "CodeLens (Launch) - Antonio",
             "request": "launch",
             "mainClass": "Antonio"
